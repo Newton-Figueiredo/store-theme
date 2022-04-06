@@ -139,5 +139,10 @@
       "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
       "width": "70"
     }
+  },
+  "login": {
+    "props": {
+      "logInButtonBehavior":"link"
+    }
   }
 }

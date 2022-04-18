@@ -2,9 +2,14 @@
   "store.home": {
     "blocks": [
       //"MetaTags",
+      "disposition-layout"
+    ]
+  },
+
+  "disposition-layout": {
+    "title": "Home Page disposition test",
+    "children": [
       "list-context.image-list#demo",
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#deals",
       "rich-text#shelf-title",
@@ -14,7 +19,41 @@
       "rich-text#link",
       "newsletter",
       "Cards"
-    ]
+    ],
+    "props": {
+      "disposition": [
+        {
+          "order": 1
+        },
+        {
+          "order": 2
+        },
+        {
+          "order": 3
+        },
+        {
+          "order": 4
+        },
+        {
+          "order": 5
+        },
+        {
+          "order": 6
+        },
+        {
+          "order": 7
+        },
+        {
+          "order": 8
+        },
+        {
+          "order": 9
+        },
+        {
+          "order": 10
+        }
+      ]
+    }
   },
 
   "list-context.image-list#demo": {
